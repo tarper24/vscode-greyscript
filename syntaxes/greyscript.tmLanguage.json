@@ -135,11 +135,11 @@
           "match": "\\)"
         },
         {
-          "name": "punctuation.operator.separator.greyscript",
+          "name": "punctuation.separator.greyscript",
           "match": "(,|\\.)"
         },
         {
-          "name": "punctuation.operator.termination.greyscript",
+          "name": "punctuation.terminator.greyscript",
           "match": "(;)"
         }
       ]

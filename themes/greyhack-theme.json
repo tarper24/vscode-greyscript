@@ -1,0 +1,116 @@
+{
+  "name": "GreyHack Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#232628",
+    "editor.foreground": "#D9D9D9",
+    "activityBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "editorGutter.background": "#1C1E20"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#546E7A"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Slice",
+      "scope": ["keyword.operator.slice"],
+      "settings": {
+        "foreground": "#CC66FF"
+      }
+    },
+    {
+      "name": "Control Flow",
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Other Keywords",
+      "scope": ["keyword.other"],
+      "settings": {
+        "foreground": "#D9D9D9"
+      }
+    },
+    {
+      "name": "Data Methods and Arithmetic functions",
+      "scope": ["entity.name.function.data", "entity.name.function.arithmetic"],
+      "settings": {
+        "foreground": "#D9D9D9"
+      }
+    },
+    {
+      "name": "Function, Methods",
+      "scope": ["entity.name.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#3EB1D3"
+      }
+    },
+    {
+      "name": "Puncuation: Delimiters, Terminator, Braces",
+      "scope": [
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.dict"
+      ],
+      "settings": {
+        "foreground": "#99CCFF"
+      }
+    },
+    {
+      "name": "Puncuation: Parenthesis",
+      "scope": ["punctuation.parameters"],
+      "settings": {
+        "foreground": "#73A4E7"
+      }
+    },
+    {
+      "name": "Puncuation: Brackets",
+      "scope": ["punctuation.list"],
+      "settings": {
+        "foreground": "#7A7AFF"
+      }
+    },
+    {
+      "name": "Assignment, Comparison",
+      "scope": ["keyword.operator.assignment", "keyword.operator.comparison"],
+      "settings": {
+        "foreground": "#99CCFF"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#44AA44"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#DADB69"
+      }
+    },
+    {
+      "name": "Assignment, Comparison",
+      "scope": ["keyword.operator.assignment", "keyword.operator.comparison"],
+      "settings": {
+        "foreground": "#99CCFF"
+      }
+    }
+  ]
+}

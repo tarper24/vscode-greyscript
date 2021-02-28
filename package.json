@@ -1,25 +1,42 @@
 {
-    "name": "greyscript",
-    "displayName": "GreyScript",
-    "description": "Syntax highlighting support for GreyScript from GreyHack.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.53.0"
-    },
-    "categories": [
-        "Programming Languages"
+  "name": "greyscript",
+  "displayName": "GreyScript",
+  "description": "Syntax highlighting support for GreyScript from GreyHack.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Themes"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "greyscript",
+        "aliases": [
+          "GreyScript",
+          "greyscript"
+        ],
+        "extensions": [
+          ".gs"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
-    "contributes": {
-        "languages": [{
-            "id": "greyscript",
-            "aliases": ["GreyScript", "greyscript"],
-            "extensions": [".gs"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "greyscript",
-            "scopeName": "source.gs",
-            "path": "./syntaxes/greyscript.tmLanguage.json"
-        }]
-    }
+    "grammars": [
+      {
+        "language": "greyscript",
+        "scopeName": "source.gs",
+        "path": "./syntaxes/greyscript.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "GreyHack Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/greyhack-theme.json"
+      }
+    ]
+  }
 }
