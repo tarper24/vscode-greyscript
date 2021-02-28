@@ -1,3 +1,6 @@
+node_modules
+*.vsix
+
 ## VS Code (https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore)
 .vscode/*
 !.vscode/settings.json
