@@ -31,7 +31,7 @@
     }
   },
   "indentationRules": {
-    "increaseIndentPattern": "(?<!end\\s+)\\b(if|while|for|function|else)\\b",
-    "decreaseIndentPattern": "\\b(else\\s+if|else|end)\\b"
+    "increaseIndentPattern": "(?<!\".*?)((?<!end\\s+)\\b(while|for|function)\\b|if\\b.*\\bthen\\s*$|else\\s*$)(?!.*?\")",
+    "decreaseIndentPattern": "(?<!\".*?)\\b(else|end)\\b(?!.*?\")"
   }
 }
