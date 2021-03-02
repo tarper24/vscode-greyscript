@@ -152,7 +152,7 @@
       "patterns": [
         {
           "name": "entity.name.function.global.greyscript",
-          "match": "(?<=\\s|^)(print|wait|time|typeof|md5|get_router|get_shell|nslookup|whois|is_valid_ip|is_lan_ip|command_info|current_date|current_path|parent_path|home_dir|program_path|active_user|user_mail_address|user_bank_number|format_columns|user_input|include_lib|bitwise|clear_screen|exit)(?=\\(|\\b|\\.)"
+          "match": "(?<=\\s|^|\\()(print|wait|time|typeof|md5|get_router|get_shell|nslookup|whois|is_valid_ip|is_lan_ip|command_info|current_date|current_path|parent_path|home_dir|program_path|active_user|user_mail_address|user_bank_number|format_columns|user_input|include_lib|bitwise|clear_screen|exit)\\b"
         },
         {
           "name": "entity.name.function.router.greyscript",
@@ -200,7 +200,7 @@
         },
         {
           "name": "entity.name.function.arithmetic.greyscript",
-          "match": "(?<=\\s|^)(abs|acos|asin|atan|tan|cos|sin|char|floor|range|round|rnd|sign|sqrt|str|ceil|pi)\\b"
+          "match": "(?<=\\s|^|\\()(abs|acos|asin|atan|tan|cos|sin|char|floor|range|round|rnd|sign|sqrt|str|ceil|pi)\\b"
         }
       ]
     }

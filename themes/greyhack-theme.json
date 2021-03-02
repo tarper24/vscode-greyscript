@@ -63,7 +63,7 @@
     },
     {
       "name": "Function, Methods",
-      "scope": ["entity.name.function", "meta.function-call"],
+      "scope": ["entity.name.function"],
       "settings": {
         "foreground": "#3EB1D3"
       }
