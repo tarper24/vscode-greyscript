@@ -49,7 +49,7 @@
         },
         {
           "name": "keyword.control.flow.other.greyscript",
-          "match": "\\b(then|else)\\b"
+          "match": "\\b(then|else|return|continue|break)\\b"
         },
         {
           "name": "keyword.other.greyscript",
@@ -81,7 +81,11 @@
         },
         {
           "name": "keyword.operator.logic.greyscript",
-          "match": "\\b(in|not|and|or)\\b"
+          "match": "\\b(in|not|and|or|true|false)\\b"
+        },
+        {
+          "name": "keyword.operator.other.greyscript",
+          "match": "\\b(null|new|self)\\b"
         }
       ]
     },

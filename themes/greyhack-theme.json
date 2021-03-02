@@ -27,6 +27,13 @@
       }
     },
     {
+      "name": "Operators; Logic, Other",
+      "scope": ["keyword.operator.logic", "keyword.operator.other"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
       "name": "Slice",
       "scope": ["keyword.operator.slice"],
       "settings": {
